@@ -1,2 +1,2 @@
-﻿  core_2d_camera_platformer.c
-  core_2d_camera_platformer.vcxproj -> E:\DEV\Libs\raylib-master\raylib-master\bin\examples\Debug\core_2d_camera_platformer.exe
+﻿LINK : fatal error LNK1104: cannot open file '..\raylib\Debug\raylib.lib'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(876,5): error MSB6006: "link.exe" exited with code 1104.
