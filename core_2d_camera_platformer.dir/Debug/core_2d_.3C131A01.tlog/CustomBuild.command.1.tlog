@@ -1,0 +1,10 @@
+^E:\DEV\LIBS\RAYLIB-MASTER\RAYLIB-MASTER\EXAMPLES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/DEV/Libs/raylib-master/raylib-master -BE:/DEV/Libs/raylib-master/raylib-master/bin --check-stamp-file E:/DEV/Libs/raylib-master/raylib-master/bin/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
